@@ -26,6 +26,8 @@ var fname = document.getElementById("fname"),
 	box3,
 	errors = document.getElementById("errors"),
 	mopeeps = document.getElementById("mopeeps"),
+	cats = document.getElementById("cats"),
+	catsGo = document.getElementById("catsGo"),
 
 	addPeep = document.getElementById("addPeep");
 
@@ -356,13 +358,12 @@ var getCatImage = function(peepCat,addSubUl){
 }
 
 
-
 // Script
 getData();
 
+
 changeCats();
 
-// NOT WORKING addPeep.addEventListener("click", validator);
 addPeep.addEventListener("click", validator);
 
 displayData.addEventListener("click", showData);
