@@ -361,6 +361,7 @@ var getCatImage = function(peepCat,addSubUl){
 // Script
 getData();
 
+catsGo.addEventListener("click", showData)
 
 changeCats();
 
