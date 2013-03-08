@@ -5,12 +5,22 @@ h1{
 	padding: 10px;
 	border: solid black;
 	background: #9800A3;
-	margin: 5px;
+	margin: 0px;
 	
 }
 
+h3{
+	font-family: sans-serif;
+	font-size: 12px;
+	background:#cc99cc;
+	display: block;
+}
+img{
+	margin: 0px;
+}
+
 body{
-	background: #00A398
+	background: #3399cc
 
 }
 
@@ -36,9 +46,11 @@ li{
 	font-family: sans-serif;
 }
 
-input{
+input[type="text"]{
+	margin-left: 8px;
+	width: 200px;
+	margin-right: 10px;
 
-	background: #FCD6FF;
 }
 
 textarea{
@@ -47,7 +59,7 @@ textarea{
 }
 a{
 	font-family: sans-serif;
-	margin: 5px;
+	margin: 0px;
 
 }
 
