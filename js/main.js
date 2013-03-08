@@ -357,11 +357,19 @@ var getCatImage = function(peepCat,addSubUl){
 	catImageLi.appendChild(catImage);
 }
 
+var browseCat = function(){
+	var noPeepAddPeep = confirm("There are no Peeps in storage, add Default Peeps?");
+	if(noPeepAddPeep){
+		addDefaultPeeps();
+	}else{
+		window.location.reload(true);
+	}
+}
 
 // Script
 getData();
 
-catsGo.addEventListener("click", showData)
+catsGo.addEventListener("click", browseCat)
 
 changeCats();
 
